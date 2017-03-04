@@ -2,6 +2,7 @@ Setup:
 
 1. Edit **package.json**, set `name`, `description`, `publish`, `repository.url`, `bugs.url`, and `license`
 2. Edit **.jsdoc-conf.json**, set `systemName`
+3. Change git remote: `git remote rm origin` then `git remote add origin new-repo`
 
 Optional:
 
