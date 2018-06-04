@@ -19,4 +19,4 @@ after_success:
   - npm run docs
   - git config --global user.name "Adam Powers"
   - git config --global user.email "apowers@ato.ms"
-  - gh-pages --silent --repo https://$GH_TOKEN@github.com/apowers313/new-project.git --dist docs
+  - npm run publish-docs
